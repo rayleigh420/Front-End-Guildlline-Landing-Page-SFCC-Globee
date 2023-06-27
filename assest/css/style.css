@@ -11,10 +11,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.modal {
+    padding: 50px 0;
+}
+
+.modal-dialog {
+    background-color: aliceblue;
+    padding: 0 150px;
+}
+
 i {
     cursor: pointer;
 }
-
 
 .header {
     /* padding: 10px; */
@@ -75,14 +83,6 @@ footer {
     font-weight: 500;
 }
 
-/* .footer_info {
-    max-width: 300px;
-}
-
-.footer_info+.footer_info {
-    padding-left: 100px;
-} */
-
 @media (max-width: 767px) {
     .footer_info {
         border-top: 1px solid white;
@@ -96,4 +96,32 @@ footer {
         border-top: none;
         border-bottom: none;
     }
+}
+
+.time_title {
+    margin-bottom: 3px;
+}
+
+.time_number {
+    font-size: 40px;
+    font-weight: 700;
+    width: 35px;
+    text-align: center;
+    border: 1px;
+    color: #0344a4;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 3px;
+}
+
+.time_divide {
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 3px;
 }
