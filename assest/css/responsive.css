@@ -1,0 +1,79 @@
+/* Responsive */
+/* Desktop: witdh >= 768px */
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    #header {
+        padding:20px;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    #curent-section-name {
+        display: block;
+        color: #fff;
+
+    }
+
+    .nav-desktop {
+        display: flex;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .address-box {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+
+    #footer hr {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+    .toggle-detail {
+        display: block;
+    }
+    #footer-contact{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .social-link>div {
+        margin-left: 12px;
+    }
+
+    .footer-contact-title {
+        font-weight: normal;
+    }
+
+    .call-us {
+        float: right;
+    }
+
+    .social-link {
+        justify-content: flex-end!important;
+        margin-right: 10px;
+    }
+
+    .footer-social {
+        padding-bottom: 20px;
+    }
+
+    .heading h1 {
+        font-weight: 400;
+    }
+  }

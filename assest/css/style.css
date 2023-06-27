@@ -1,0 +1,99 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+.header {
+    /* padding: 10px; */
+    background-color: #000;
+}
+
+
+
+.nav {
+    background-color: #0344a4;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.nav div {
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.contact_text {
+    color: #0344a4;
+    /* margin-left: 300px;
+    margin-top: 30px; */
+}
+
+.contact_title {
+    color: #0344a4;
+}
+
+.contact_info_wrapper {
+    background-color: rgb(242, 239, 239);
+    padding: 47px 0;
+}
+
+.contact_info_phone_email {
+    /* background-color: red; */
+    padding: 0 170px 10px;
+    border-bottom: 0.75px solid #000;
+}
+
+.contact_info_address {
+    font-size: 15px;
+    text-align: left;
+}
+
+.contact_info_map_text {
+    cursor: pointer;
+    font-weight: 500;
+    color: #0059dc;
+}
+
+footer {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* .footer_info {
+    max-width: 300px;
+}
+
+.footer_info+.footer_info {
+    padding-left: 100px;
+} */
+
+@media (max-width: 767px) {
+    .footer_info {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+}
+
+/* CSS cho border trên màn hình md trở lên */
+@media (min-width: 768px) {
+    .footer_info {
+        border-top: none;
+        border-bottom: none;
+    }
+}
