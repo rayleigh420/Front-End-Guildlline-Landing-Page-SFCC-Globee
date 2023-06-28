@@ -29,8 +29,6 @@ i {
     background-color: #000;
 }
 
-
-
 .nav {
     background-color: #0344a4;
     color: #fff;
@@ -124,4 +122,8 @@ footer {
     padding-left: 3px;
     padding-right: 3px;
     margin-right: 3px;
+}
+
+.toggle-icon {
+    cursor: pointer;
 }
