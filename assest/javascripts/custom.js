@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
-    var myModal = new bootstrap.Modal(document.getElementById("modal"), {
+$(document).ready(function () {
+    var myModal = new bootstrap.Modal($("#modal")[0], {
         keyboard: false
     });
     myModal.show();
