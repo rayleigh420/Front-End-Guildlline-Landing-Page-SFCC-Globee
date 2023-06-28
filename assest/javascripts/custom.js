@@ -5,6 +5,19 @@ document.addEventListener("DOMContentLoaded", function () {
     myModal.show();
 });
 
+$(document).ready(function () {
+    $('.toggle-icon').on('click', function () {
+        var $content = $(this).closest('.footer_info').find('.content');
+        if ($content.hasClass('d-none')) {
+            $content.removeClass('d-none');
+            $(this).text('-');
+        } else {
+            $content.addClass('d-none');
+            $(this).text('+');
+        }
+    });
+});
+
 var countDownDate = new Date();
 countDownDate.setHours(18, 0, 0); // Set the countdown time to 24:00:00
 
